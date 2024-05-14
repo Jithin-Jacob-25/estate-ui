@@ -1,5 +1,6 @@
 import "./SearchBar.scss";
 import { useState } from "react";
+import { IoMdSearch } from "react-icons/io";
 
 const types = ["Buy", "Rent"]
 
@@ -41,7 +42,7 @@ const SearchBar = () => {
         />
         <button>
             {/* search */}
-            <img src="/search.png" alt="Search" />
+            <IoMdSearch className="img" />
         </button>
       </form>
     </div>
